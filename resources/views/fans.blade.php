@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<main>
+<main class="special">
   <div class="optionals-main">
     <h1>FANS</h1>
   </div>

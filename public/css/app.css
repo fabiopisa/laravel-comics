@@ -45,7 +45,11 @@ a {
   padding: 0 15%;
 }
 
-main .optionals-main h1 {
+main.special {
+  background-color: #FFFFFF;
+}
+
+main.special .optionals-main h1 {
   text-align: center;
   margin: 100px auto;
   border: 2px solid #0282F9;
@@ -57,30 +61,6 @@ main .optionals-main h1 {
   height: 40vh;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   background-size: cover;
-  position: relative;
-}
-
-.jumbotron button {
-  background-color: #0282F9;
-  border: none;
-  border-radius: 0px;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 20px;
-  position: absolute;
-  left: 15%;
-  bottom: -3vh;
-}
-
-.jumbotron button:active {
-  color: #0282F9;
-  background-color: #FFFFFF;
-}
-
-.jumbotron button:hover {
-  border: 1px solid #FFFFFF;
 }
 
 footer {
@@ -183,5 +163,127 @@ footer .footer-follow .box-follow-us ul li a img:hover {
 
 footer .footer-follow .box-follow-us ul li a:hover {
   color: #FFFFFF;
+}
+
+main {
+  background-color: #1C1C1C;
+  text-align: center;
+  position: relative;
+}
+
+main button.current {
+  background-color: #0282F9;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  left: 15%;
+  top: -3vh;
+}
+
+main button.current:active {
+  color: #0282F9;
+  background-color: #FFFFFF;
+}
+
+main button.current:hover {
+  border: 1px solid #FFFFFF;
+}
+
+main ul {
+  padding: 50px 0 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main ul li {
+  flex-basis: calc(100% / 6);
+  margin-bottom: 30px;
+  text-align: left;
+  height: 25vh;
+}
+
+main ul li img {
+  width: 80%;
+  height: 20vh;
+  margin: 0 10%;
+}
+
+main ul li h4 {
+  color: #FFFFFF;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+main button {
+  background-color: #0282F9;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 10px;
+  padding: 5px 30px;
+}
+
+main button:active {
+  color: #0282F9;
+  background-color: #FFFFFF;
+}
+
+main button:hover {
+  border: 1px solid #FFFFFF;
+}
+
+section.line-main {
+  background-color: #0282F9;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+section.line-main ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+section.line-main ul li {
+  display: flex;
+  align-items: center;
+}
+
+section.line-main ul li a {
+  display: flex;
+  align-items: center;
+}
+
+section.line-main ul li a img {
+  width: 40px;
+}
+
+section.line-main ul li a img.special-img-shop {
+  width: 30px;
+}
+
+section.line-main ul li a h4 {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+section.line-main ul li a:hover h4 {
+  color: #000000;
 }
 

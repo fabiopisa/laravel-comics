@@ -14,7 +14,10 @@ a{
 .container{
  padding: 0 15%;
 }
-main .optionals-main h1{
+main.special{
+ background-color: #FFFFFF;
+}
+main.special .optionals-main h1{
   text-align: center;
   margin: 100px auto;
   border: 2px solid $color-blue;

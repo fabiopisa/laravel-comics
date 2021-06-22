@@ -2,12 +2,4 @@
   height:40vh;
   background-image: url(../../../public/img/jumbotron.jpg);
   background-size: cover;
-  position: relative;
-  button{
-    @include button-blue; 
-    font-size: 20px;
-    position: absolute;
-    left: 15%;
-    bottom: -3vh;
-  };
 }
