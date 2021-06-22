@@ -6,8 +6,10 @@
   <ul>
     @foreach ( $cards as $card)
       <li>
-        <img src="{{$card['thumb']}}" alt="{{$card['title']}}">
-        <h4>{{$card['series']}}</h4>
+        <a href="#">
+          <img src="{{$card['thumb']}}" alt="{{$card['title']}}">
+          <h4>{{$card['series']}}</h4>
+        </a>
       </li> 
     @endforeach
   </ul>
